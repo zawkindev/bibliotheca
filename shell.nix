@@ -4,7 +4,6 @@ pkgs.mkShell {
   buildInputs = with pkgs;[
     gradle 
     openjdk21 
-    mariadb # MySql
   ];
 
   JAVA_HOME = "${pkgs.openjdk21}/lib/openjdk";
